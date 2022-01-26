@@ -1,0 +1,29 @@
+#button1{
+    font-size: 24pt;
+    border-color: turquoise;
+    background-color: white;
+    color: turquoise;
+    border-radius: 100px;
+    border-width: 3px;
+    border-style: solid;
+    margin: 10px;
+}
+#button2{
+    color: white;
+    font-size: 30pt;
+    background-color: turquoise;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+}
+#button3{
+    color: white;
+    font-size: 24pt;
+    background-color: blue;
+    border-color: black;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 5px 2px black;
+}
