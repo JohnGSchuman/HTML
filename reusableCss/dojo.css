@@ -22,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 .nav-title{
     color: white;
@@ -32,4 +33,15 @@
     width: 50%;
     display: flex;
     justify-content: space-around;
+}
+.leftColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+.rightColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
