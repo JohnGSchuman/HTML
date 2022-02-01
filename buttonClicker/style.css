@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1525px;
+    height: 1000px;
+    margin: auto;
+    padding-bottom: 10px;
+    background-color: silver;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.navBar{
+    width: 1525px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.733);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.nav-title{
+    color: white;
+    align-items: center;
+}
+.searchBar{
+    color: black;
+    background-color: turquoise;
+    border-color: black;
+    margin: 10px;
+    padding: 5px;
+}
+.loginButton{
+    color: black;
+    background-color: white;
+    border-color: black;
+    margin: 10px;
+    padding: 5px;
+}
+.btnLeft{
+    font-family:'Roboto', sans-serif;
+    background-color: yellow;
+    color: black;
+    box-shadow: 5px 5px black;
+    position: relative;
+    bottom: -10px;
+}
+.btnRight{
+    font-family:'Roboto', sans-serif;
+    background-color: lightgreen;
+    width: 50%;
+    color: black;
+    box-shadow: 5px 5px black;
+    position: relative;
+    bottom: -10px;
+}
+.mainBody{
+    height: 800;
+    margin-left: 100;
+    margin-right: 100;
+    padding-top: 20;
+    display: flex;
+    justify-content: center;
+}
+.leftColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+.wordBox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+    height: 200px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 3px;
+    border: 3px solid rgba(128, 128, 128, 0.575);
+}
+.wordBoxLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+    width: 200;
+    justify-content: centered;
+    padding: 20px;
+    padding-top: 40px;
+}
+.wordBoxRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+    width: 300;
+    padding: 20px;
+    padding-top: 60px;
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 3px;
+    border: 3px solid rgba(128, 128, 128, 0.575);
+}
