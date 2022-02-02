@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 825px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    color: white;
+    background-color: black;
+    height: 50px;
+    padding: 10px;
+}
+.title{
+    height: 50px;
+    text-align: center;*/
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: white;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+.self{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+.self img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.friends{
+    border: 2px solid black;
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+.friendsHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding-top: 15px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.friendsHeaderLikes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    padding-left: 20px;
+}
+.likeButton{
+    border: 2px black;
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+    box-shadow: 3px 3px black;
+}
